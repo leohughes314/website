@@ -2,5 +2,5 @@ theme: jekyll-theme-minimal
 title: Leonardo's homepage
 logo: /website/leoDesert.jpg
 name: Leonardo Hughes, Geographer
-markdown: kramdown
+#markdown: kramdown
 permalink: /blog/:year/:month/:day/:title
