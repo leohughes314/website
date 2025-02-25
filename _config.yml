@@ -1,5 +1,5 @@
 theme: jekyll-theme-midnight
-title: Leonardo's homepage
 name: Leonardo Hughes, Geographer
 markdown: kramdown
 permalink: /blog/:year/:month/:day/:title
+
