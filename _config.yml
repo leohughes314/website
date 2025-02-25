@@ -1,4 +1,5 @@
 theme: jekyll-theme-minimal
+skin: dark
 title: Leonardo Hughes, Geographer
 logo: my_folder/leoDesert.jpg
 markdown: kramdown
