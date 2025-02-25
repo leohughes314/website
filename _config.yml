@@ -1,5 +1,5 @@
 theme: jekyll-theme-minimal
-name: Leonardo Hughes, Geographer
+title: Leonardo Hughes, Geographer
 markdown: kramdown
 permalink: /blog/:year/:month/:day/:title
 
