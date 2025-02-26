@@ -1,7 +1,7 @@
 theme: jekyll-theme-minimal
 skin: dark
 title: Leonardo Hughes, Geographer
-logo: my_folder/leo_perugame.png
+logo: my_folder/leo_perugame_1.png
 markdown: kramdown
 permalink: /blog/:year/:month/:day/:title
 
