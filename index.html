@@ -6,7 +6,7 @@ title: Leonardo Hughes, Geographer
 	<h1>Hi, I'm Leonardo Hughes!</h1>
 	<p>I'm best known for my amazing maps. <a href="/about">Read more about my life...</a></p>
 	<p>As accurate and up to date data becomes increasingly accessible to everyday citizens, tutorials on the aggregation and normalization of datasets can empower you, the user, to implement POSTGIS as a tool in which to analyze these datasets with the added functionality of spatial commands. This tutorial is designed to step the user through the Extraction, Transformation and Loading process of creating ones very own spatial database using data provided by the City of Detroit. 
-Data 
+Data<br> 
 All data gathered within this tutorial has been made publicly available at: 
 https://data.detroitmi.gov/ 
 Datasets: 
@@ -15,7 +15,7 @@ Building Demolition
 Zoning 
 Neighborhood 
 Owner 
-Rental 
+Rental<br> 
 The data compiled for this tutorial has been chosen in order provide the user with commonly formatted data structures released by government organizations. Such datasets are often used within Geographic Information Systems, Community & Economic Development Organizations, Business Analytics as well as a host of other fields. 
 The appendix of the tutorial includes the data normalization script in its entirety. 
 Data Structure and the Normalization Process:: ERD 
@@ -23,8 +23,8 @@ In order to create a functional Spatial Database using PostGIS, the process of d
 1NF - The attribute of a table cannot hold multiple values 
 2NF - No non-prime attribute is dependent on the proper subset of any candidate key of table. 3NF - Transitive functional dependency of non-prime attribute on any super key should be removed.
 The 3 Normal Forms of a Database can be visually interpreted using an Entity Relationship Diagram, or ERD. Below is the ERD associated with the Spatial Database created in this tutorial. 
-
-One example of why the relational dependencies across table is so crucial to the functionality of the database can be expressed through the Parcel to Zoning relationship. In our schema, we have set it up so that the zoning designation is dropped from the Parcel table (see Appendix for how to DROP COLUMN). This is done so that if a parcel lies within a region which undergoes a change in zoning law, the data stored in the Parcel table will no longer yield inaccurate data. Rather than zoning designation depend on the Parcel value, zoning classification is applied to the parcels which lay within the geometry, or shape, of the polygon area found in the data. 
+<br>
+One example of why the relational dependencies across table is so crucial to the functionality of the database can be expressed through the Parcel to Zoning relationship. In our schema, we have set it up so that the zoning designation is dropped from the Parcel table (see Appendix for how to DROP COLUMN). This is done so that if a parcel lies within a region which undergoes a change in zoning law, the data stored in the Parcel table will no longer yield inaccurate data. Rather than zoning designation depend on the Parcel value, zoning classification is applied to the parcels which lay within the geometry, or shape, of the polygon area found in the data.<br> 
 Getting to know your data is crucial in deciding which information may be superfluous and can be removed. Consider which relational dependencies make sense for the purposes of your spatial analysis! Happy scripting! 
 Analytical Queries! 
 1. What is the acreage of demolished parcels in Detroit? 
