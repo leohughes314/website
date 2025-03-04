@@ -5,3 +5,6 @@ logo: my_folder/leo_perugame_1.png
 markdown: kramdown
 permalink: /blog/:year/:month/:day/:title
 
+layout: page
+title: "about"
+permalink: /about
